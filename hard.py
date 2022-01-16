@@ -34,11 +34,8 @@ def is_unlocked(courses_list, target_course):
     """
     
     # TODO: COMPLETE THIS FUNCTION!!!
-    
+    if len(courses_list) == 0 and target_course != "COMP1511":
+        return False
+
     return True
-
-
-
-
-
     
